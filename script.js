@@ -4,8 +4,7 @@ var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericChars = "0123456789";
   var specialChars = "!@#$%^&*()_+-=[]{}|;:,.<>?";
-
-  var selectedChars = "";
+var selectedChars = "";
 
 
 var lowercase = confirm("Include lowercase characters?");
