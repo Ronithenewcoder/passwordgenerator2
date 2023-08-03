@@ -1,8 +1,19 @@
 // Assignment code here
 var password=document.getElementById("password");
-var characters="0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var passwordLength = 0 - 128;
-var password = ""
+var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numericChars = "0123456789";
+  var specialChars = "!@#$%^&*()_+-=[]{}|;:,.<>?";
+var selectedChars = "";
+
+
+var lowercase = confirm("Include lowercase characters?");
+  var uppercase = confirm("Include uppercase characters?");
+  var numeric = confirm("Include numeric characters?");
+  var special = confirm("Include special characters?");
+
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
